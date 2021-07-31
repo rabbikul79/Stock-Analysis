@@ -7,13 +7,19 @@ We've created a workbook where a dataset of stocks can be analyzed with a click 
 -	The initial file has a VBA module “All Stock Analysis” where the output was displayed in the All Stock analysis tab. We’ve created a new module name “VBA_Challenge” and the analysis will be displayed in the VBA_Module spreadsheet we created.
 
 -	In the previous module we analyze the data by sorting through the data by variable and then iterate through the entire dataset to find the totalVolume for each ticker:
-‘Dim startingPrice As Single
-‘Dim endingPrice As Single
+    
+    ‘Dim startingPrice As Single
+    
+    ‘Dim endingPrice As Single
 
 -	In the refactored code we created separate output put arrays and stored the date for each ticker result:
-' Create three output arrays
+
+    ' Create three output arrays
+    
     Dim tickerVolumes(12) As Long
+    
     Dim tickerStartingPrices(12) As Single
+    
     Dim tickerEndingPrices(12) As Single
 
 ## Result
